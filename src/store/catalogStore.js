@@ -1,4 +1,3 @@
-// Datos del catálogo de productos
 export const catalogData = [
   {
     id: 1,
@@ -65,12 +64,10 @@ export const catalogData = [
   }
 ]
 
-// Función para obtener todos los productos
 export const getAllProducts = () => {
   return catalogData
 }
 
-// Función para obtener un producto por ID
 export const getProductById = (id) => {
   return catalogData.find(product => product.id === id)
 }
