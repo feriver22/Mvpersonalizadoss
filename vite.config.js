@@ -14,7 +14,6 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      // Solo usamos index.html como punto de entrada para el SPA
       input: {
         main: path.resolve(__dirname, 'index.html'),
       },
