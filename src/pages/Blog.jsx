@@ -80,8 +80,6 @@ const Blog = () => {
             </article>
           ))}
         </div>
-
-        {/* Sección de suscripción */}
         <div className="mt-16 bg-white rounded-lg p-8 shadow-lg">
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
