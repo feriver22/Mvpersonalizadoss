@@ -1,4 +1,3 @@
-// src/pages/NuevasRetrateras.jsx
 import React from 'react'
 
 const NuevasRetrateras = () => {
